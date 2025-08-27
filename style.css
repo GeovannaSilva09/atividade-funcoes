@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.botoes {
+   
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 30px;
+   
+}
+
+.resultado {
+
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border: dotted plum;
+}   
